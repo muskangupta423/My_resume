@@ -1,4 +1,7 @@
 stl=input("Enter the string")
-print("string after appending a period is")
-print(stl,end="")
-print('.')
+if(stl.isdigit()):
+  print("Invalid")
+else:
+  print("string after appending a period is")
+  print(stl,end="")
+  print('.')
