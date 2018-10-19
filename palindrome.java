@@ -1,5 +1,5 @@
 import java.util.*;
-import java.lan.*;
+import java.lang.*;
 class pal
 {
 	public static void main(String...s)
