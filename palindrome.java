@@ -6,6 +6,8 @@ class pal
 	{
 		Scanner sc=new Scanner(System.in);
 		int num=sc.nextInt();
+		if(num<=1000)
+		{
 		int rev=0;
 		int temp=num;
 		while(temp!=0)
@@ -21,6 +23,11 @@ class pal
 		else
 		{
 			System.out.println("No");
+		}
+		}
+		else
+		{
+		System.out.println("take number less than 1000");
 		}
 	}
 }
